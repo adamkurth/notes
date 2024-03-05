@@ -12,10 +12,15 @@ module load python/3.7.1
 ``` bash
 conda info --envs
 # conda 4.7.11
-source load [env_name]
+source activate [env_name]
 ```
 
-- Creating a new environment:
+- Using the `pytorch-1.20` environment:
 ``` bash
+source activate pytorch-1.20
+```
 
+- Any module which are not already installed can be installed using `pip`:
+``` bash
+pip install [module_name]
 ```
