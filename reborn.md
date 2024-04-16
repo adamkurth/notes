@@ -15,8 +15,11 @@
 
 1. Update the `PATH` variable to the `reborn` directory in the root directory. 
 
+export PYTHONPATH="/Users/adamkurth/Documents/vscode/CXFEL/reborn_dev/developer/rkirian/projects/cxls:$PYTHONPATH"   
+
     ```bash
-    export PYTHONPATH="/Users/adamkurth/Documents/vscode/CXFEL_Image_Analysis/CXFEL/reborn:$PYTHONPATH"
+
+    export PYTHONPATH="/Users/adamkurth/Documents/vscode/CXFEL/reborn_dev:$PYTHONPATH"
     python developer/rkirian/projects/cxls/water_background.py
     ```
 
